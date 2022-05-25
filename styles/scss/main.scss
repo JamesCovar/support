@@ -1,0 +1,96 @@
+@import './fonts';
+@import './colors';
+@import './width';
+@import './display';
+
+$marginLeft:3%;
+$marginRight:3%;
+
+button{
+    background: linear-gradient(90deg, #D68BE5 0%, #E184A8 49.48%, #F67A40 100%);
+    border-radius: 20px;
+    padding: 10px 40px 10px 40px;
+    border:0px;
+}
+
+input{
+    background-color: #C4C4C4;
+    border: 0;
+    padding: 10px 20px 10px 20px;
+    margin: 0;
+}
+
+.iconInput{
+    background: linear-gradient(90deg, #D68BE5 0%, #E184A8 49.48%, #F67A40 100%);
+    padding: 9px 20px 9px 20px;
+    margin: -10px;
+}
+
+hr{
+   margin-left: $marginLeft; 
+   margin-right: $marginRight; 
+}
+
+
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+// NavBar
+ul {
+    list-style-type: none;
+    text-decoration: none;
+    color: #000000;
+    padding: 0;
+    @extend hr
+}
+li{
+    display: inline-flex;
+    width: auto;
+    font-size: 1.3rem;
+    font-family:'gidole',sans-serif;
+}
+.margin{
+    margin-left: 8%;
+    margin-right: auto;
+    align-items: center;
+}
+
+.w-49{
+    display: inline-flex;
+    width: 49%;
+}
+
+.alignItemCenter{
+    align-items: center;
+}
+
+section{
+    max-width: 100% - $marginRight - $marginLeft;
+}
+
+.gridLayout{
+    margin-top: 30px;
+    width: 100%;
+    margin-left: $marginLeft;
+    margin-right: $marginRight;
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+
+    .box-1{
+        grid-column: 1/6;
+        align-self: center;
+        margin: 0;
+    }
+    .box-2{
+        grid-column: 6/10;
+        align-self: center;
+    }
+    .box-3{
+        margin-top: 40px;
+        grid-column: 2/9;
+        align-self: center;
+    }
+}

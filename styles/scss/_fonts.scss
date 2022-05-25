@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+@font-face {
+    font-family: 'gidole';
+    src: url('../fonts/Gidole-Regular.ttf');
+}
+
+$fonts: ('ptSans':'PT Sans', 'poppins':'Poppins','gidole':'gidole');
+
+@each $fontName, $font in $fonts {
+    .#{$fontName}-100{
+        font-family: $font;
+        font-weight: 100;
+    }
+    .#{$fontName}-200{
+        font-family: $font;
+        font-weight: 200;
+    }
+    .#{$fontName}-300{
+        font-family: $font;
+        font-weight: 300;
+    }
+    .#{$fontName}-400{
+        font-family: $font;
+        font-weight: 400;
+    }
+    .#{$fontName}-500{
+        font-family: $font;
+        font-weight: 500;
+    }
+    .#{$fontName}-600{
+        font-family: $font;
+        font-weight: 600;
+    }
+    .#{$fontName}-700{
+        font-family: $font;
+        font-weight: 700;
+    }
+    .#{$fontName}-800{
+        font-family: $font;
+        font-weight: 800;
+    }
+    .#{$fontName}-900{
+        font-family: $font;
+        font-weight: 900;
+    }
+}
+
+@for $i from 1 through 10 {
+    .fontSize-#{$i}{
+        font-size: #{$i}rem;
+    }
+
+    .fontSize-#{$i}half{
+        font-size: #{$i+.5}rem;
+    }
+
+    
+}
+
+.fontSize-half{
+    font-size: 0.5rem;
+}

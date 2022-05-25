@@ -1,0 +1,11 @@
+$colors: ("black":#000000, "gray":#C4C4C4, "white":#FFFFFF);
+
+@each $color, $code in $colors {
+    .#{$color}{
+        color: $code;
+    }
+
+    .bg-#{$color}{
+        color: $code;
+    }
+}

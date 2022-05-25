@@ -1,0 +1,313 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@font-face {
+  font-family: 'gidole';
+  src: url("../fonts/Gidole-Regular.ttf"); }
+
+.ptSans-100 {
+  font-family: "PT Sans";
+  font-weight: 100; }
+
+.ptSans-200 {
+  font-family: "PT Sans";
+  font-weight: 200; }
+
+.ptSans-300 {
+  font-family: "PT Sans";
+  font-weight: 300; }
+
+.ptSans-400 {
+  font-family: "PT Sans";
+  font-weight: 400; }
+
+.ptSans-500 {
+  font-family: "PT Sans";
+  font-weight: 500; }
+
+.ptSans-600 {
+  font-family: "PT Sans";
+  font-weight: 600; }
+
+.ptSans-700 {
+  font-family: "PT Sans";
+  font-weight: 700; }
+
+.ptSans-800 {
+  font-family: "PT Sans";
+  font-weight: 800; }
+
+.ptSans-900 {
+  font-family: "PT Sans";
+  font-weight: 900; }
+
+.poppins-100 {
+  font-family: "Poppins";
+  font-weight: 100; }
+
+.poppins-200 {
+  font-family: "Poppins";
+  font-weight: 200; }
+
+.poppins-300 {
+  font-family: "Poppins";
+  font-weight: 300; }
+
+.poppins-400 {
+  font-family: "Poppins";
+  font-weight: 400; }
+
+.poppins-500 {
+  font-family: "Poppins";
+  font-weight: 500; }
+
+.poppins-600 {
+  font-family: "Poppins";
+  font-weight: 600; }
+
+.poppins-700 {
+  font-family: "Poppins";
+  font-weight: 700; }
+
+.poppins-800 {
+  font-family: "Poppins";
+  font-weight: 800; }
+
+.poppins-900 {
+  font-family: "Poppins";
+  font-weight: 900; }
+
+.gidole-100 {
+  font-family: "gidole";
+  font-weight: 100; }
+
+.gidole-200 {
+  font-family: "gidole";
+  font-weight: 200; }
+
+.gidole-300 {
+  font-family: "gidole";
+  font-weight: 300; }
+
+.gidole-400 {
+  font-family: "gidole";
+  font-weight: 400; }
+
+.gidole-500 {
+  font-family: "gidole";
+  font-weight: 500; }
+
+.gidole-600 {
+  font-family: "gidole";
+  font-weight: 600; }
+
+.gidole-700 {
+  font-family: "gidole";
+  font-weight: 700; }
+
+.gidole-800 {
+  font-family: "gidole";
+  font-weight: 800; }
+
+.gidole-900 {
+  font-family: "gidole";
+  font-weight: 900; }
+
+.fontSize-1 {
+  font-size: 1rem; }
+
+.fontSize-1half {
+  font-size: 1.5rem; }
+
+.fontSize-2 {
+  font-size: 2rem; }
+
+.fontSize-2half {
+  font-size: 2.5rem; }
+
+.fontSize-3 {
+  font-size: 3rem; }
+
+.fontSize-3half {
+  font-size: 3.5rem; }
+
+.fontSize-4 {
+  font-size: 4rem; }
+
+.fontSize-4half {
+  font-size: 4.5rem; }
+
+.fontSize-5 {
+  font-size: 5rem; }
+
+.fontSize-5half {
+  font-size: 5.5rem; }
+
+.fontSize-6 {
+  font-size: 6rem; }
+
+.fontSize-6half {
+  font-size: 6.5rem; }
+
+.fontSize-7 {
+  font-size: 7rem; }
+
+.fontSize-7half {
+  font-size: 7.5rem; }
+
+.fontSize-8 {
+  font-size: 8rem; }
+
+.fontSize-8half {
+  font-size: 8.5rem; }
+
+.fontSize-9 {
+  font-size: 9rem; }
+
+.fontSize-9half {
+  font-size: 9.5rem; }
+
+.fontSize-10 {
+  font-size: 10rem; }
+
+.fontSize-10half {
+  font-size: 10.5rem; }
+
+.fontSize-half {
+  font-size: 0.5rem; }
+
+.black {
+  color: #000000; }
+
+.bg-black {
+  color: #000000; }
+
+.gray {
+  color: #C4C4C4; }
+
+.bg-gray {
+  color: #C4C4C4; }
+
+.white {
+  color: #FFFFFF; }
+
+.bg-white {
+  color: #FFFFFF; }
+
+.w-10 {
+  width: 10%; }
+
+.w-20 {
+  width: 20%; }
+
+.w-30 {
+  width: 30%; }
+
+.w-40 {
+  width: 40%; }
+
+.w-50 {
+  width: 50%; }
+
+.w-60 {
+  width: 60%; }
+
+.w-70 {
+  width: 70%; }
+
+.w-80 {
+  width: 80%; }
+
+.w-90 {
+  width: 90%; }
+
+.w-100 {
+  width: 100%; }
+
+.d-inline-flex {
+  display: inline-flex; }
+
+.d-block {
+  display: block; }
+
+.d-contents {
+  display: contents; }
+
+.d-flex {
+  display: flex; }
+
+.d-grid {
+  display: grid; }
+
+.d-inline {
+  display: inline; }
+
+button {
+  background: linear-gradient(90deg, #D68BE5 0%, #E184A8 49.48%, #F67A40 100%);
+  border-radius: 20px;
+  padding: 10px 40px 10px 40px;
+  border: 0px; }
+
+input {
+  background-color: #C4C4C4;
+  border: 0;
+  padding: 10px 20px 10px 20px;
+  margin: 0; }
+
+.iconInput {
+  background: linear-gradient(90deg, #D68BE5 0%, #E184A8 49.48%, #F67A40 100%);
+  padding: 9px 20px 9px 20px;
+  margin: -10px; }
+
+hr, ul {
+  margin-left: 3%;
+  margin-right: 3%; }
+
+a {
+  text-decoration: none;
+  color: #000000; }
+
+ul {
+  list-style-type: none;
+  text-decoration: none;
+  color: #000000;
+  padding: 0; }
+
+li {
+  display: inline-flex;
+  width: auto;
+  font-size: 1.3rem;
+  font-family: 'gidole',sans-serif; }
+
+.margin {
+  margin-left: 8%;
+  margin-right: auto;
+  align-items: center; }
+
+.w-49 {
+  display: inline-flex;
+  width: 49%; }
+
+.alignItemCenter {
+  align-items: center; }
+
+section {
+  max-width: 94%; }
+
+.gridLayout {
+  margin-top: 30px;
+  width: 100%;
+  margin-left: 3%;
+  margin-right: 3%;
+  display: grid;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%; }
+  .gridLayout .box-1 {
+    grid-column: 1/6;
+    align-self: center;
+    margin: 0; }
+  .gridLayout .box-2 {
+    grid-column: 6/10;
+    align-self: center; }
+  .gridLayout .box-3 {
+    margin-top: 40px;
+    grid-column: 2/9;
+    align-self: center; }

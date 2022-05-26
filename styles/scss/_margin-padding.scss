@@ -1,0 +1,44 @@
+
+@for $cicle from 0 to 11 {
+    .mt-#{$cicle}{
+        margin-top: $cicle*10px;
+    }
+
+    .ml-#{$cicle}{
+        margin-left: $cicle*10px;
+    }
+
+    .mb-#{$cicle}{
+        margin-bottom: $cicle*10px;
+    }
+
+    .mr-#{$cicle}{
+        margin-right: $cicle*10px;
+    }
+
+    .m-#{$cicle}{
+        margin: $cicle*10px;
+    }
+}
+
+@for $cicle from 0 to 11 {
+    .pt-#{$cicle}{
+        padding-top: $cicle*10px;
+    }
+
+    .pl-#{$cicle}{
+        padding-left: $cicle*10px;
+    }
+
+    .pb-#{$cicle}{
+        padding-bottom: $cicle*10px;
+    }
+
+    .pr-#{$cicle}{
+        padding-right: $cicle*10px;
+    }
+
+    .p-#{$cicle}{
+        padding: $cicle*10px;
+    }
+}

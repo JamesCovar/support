@@ -1,0 +1,8 @@
+
+$textAlign: (center, right, left);
+
+@each $position in $textAlign {
+    .textAlign-#{$position}{
+        text-align: $position;
+    }
+}

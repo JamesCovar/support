@@ -6,6 +6,6 @@ $colors: ("black":#000000, "gray":#C4C4C4, "white":#FFFFFF);
     }
 
     .bg-#{$color}{
-        color: $code;
+        background-color: $code;
     }
 }

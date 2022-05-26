@@ -1,4 +1,4 @@
-$displays: (inline-flex,block,contents,flex,grid,inline);
+$displays: (inline-flex,block,inline-block,contents,flex,grid,inline);
 
 @each $displayType in $displays{
     .d-#{$displayType}{

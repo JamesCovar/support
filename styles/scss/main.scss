@@ -2,6 +2,8 @@
 @import './colors';
 @import './width';
 @import './display';
+@import './margin-padding';
+@import './positions';
 
 $marginLeft:3%;
 $marginRight:3%;
@@ -13,17 +15,38 @@ button{
     border:0px;
 }
 
+.button-lg{
+    padding: 20px 40px 20px 40px;
+    border-radius: 50px;
+}
+
+.button-lg-border{
+    padding: 0px;
+    border-radius: 50px;
+}
+.button-border-gradient{
+    padding: 16px;
+    margin: 3px;
+    border-radius: 50px;
+}
+
 input{
-    background-color: #C4C4C4;
+    background-color: #D9D9D9;
     border: 0;
-    padding: 10px 20px 10px 20px;
+    padding: 20px 20px 20px 20px;
     margin: 0;
+    font-size: 1.5rem;
+
+    &:focus{
+        border: none;
+    }
 }
 
 .iconInput{
     background: linear-gradient(90deg, #D68BE5 0%, #E184A8 49.48%, #F67A40 100%);
-    padding: 9px 20px 9px 20px;
-    margin: -10px;
+    padding: 20px 30px 20px 30px;
+    border-radius: 0 20px 20px 0px;
+    font-style: normal;
 }
 
 hr{
@@ -58,39 +81,88 @@ li{
     align-items: center;
 }
 
-.w-49{
-    display: inline-flex;
-    width: 49%;
-}
-
 .alignItemCenter{
     align-items: center;
 }
 
 section{
-    max-width: 100% - $marginRight - $marginLeft;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .gridLayout{
     margin-top: 30px;
-    width: 100%;
-    margin-left: $marginLeft;
-    margin-right: $marginRight;
+    width: 100% - $marginLeft - $marginRight;
+    padding-left: $marginLeft;
+    padding-right: $marginRight;
     display: grid;
     grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
 
-    .box-1{
-        grid-column: 1/6;
+    .box-1-5{
+        grid-column: 1/5;
         align-self: center;
         margin: 0;
     }
-    .box-2{
+
+    .box-3-9{
+        grid-column: 3/9;
+        align-self: center;
+        margin: 0;
+    }
+
+    .box-2-10{
+        grid-column: 2/10;
+        align-self: center;
+        margin: 0;
+    }
+
+    .box-4-8{
+        grid-column: 4/8;
+        align-self: center;
+        margin: 0;
+    }
+
+    .box-6-10{
         grid-column: 6/10;
         align-self: center;
     }
-    .box-3{
+    .box-6-11{
+        grid-column: 6/11;
+        align-self: center;
+    }
+    .box-2-9{
         margin-top: 40px;
         grid-column: 2/9;
         align-self: center;
     }
+    .box-3-8{
+        grid-column: 3/8;
+        align-self: center;
+    }
+}
+
+footer{
+    a{
+        text-decoration: underline;
+    }
+}
+
+
+.vector-7{
+    position: absolute;
+    left: 0%;
+    right: 62.86%;
+    top: 47.72%;
+    bottom: 13.9%;
+
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.alignSelf-center{
+align-self: center;
+}
+
+.border-1{
+    border: 1px solid black;
 }
